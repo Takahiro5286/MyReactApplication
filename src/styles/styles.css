@@ -1,0 +1,21 @@
+.allPage {
+  background-color: rgb(228, 244, 236);
+}
+
+.showArea {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 300px;
+  margin: 20px auto;
+  padding: 20px;
+  border: 1px solid black;
+}
+
+.headerTitle {
+  font-size: 24px;
+  color: teal;
+  text-align: center;
+}
