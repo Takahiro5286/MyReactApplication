@@ -9,7 +9,7 @@ app.get("/", (req, res) => {
   res.send("LocalHostに繋がった");
 });
 
-//データベース内の全データを表示(OK)!!!
+//データベース内の全データを表示(OK)!!!!
 app.get("/api/all", (req, res) => {
   database("weak_point")
     .select()
